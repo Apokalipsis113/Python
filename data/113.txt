@@ -1,9 +1,0 @@
-from PIL import Image
-from pathlib import Path
-
-imgfile = Path(filename)
-img = Image.open(imgfile)
-width = img.size[0]
-height = img.size[1]
-img3 = img.crop( (0,0,width,height-20) )
-img3.save(filename)
