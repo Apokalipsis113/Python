@@ -1,6 +1,7 @@
 import pandas as pd
 from imageai.Detection import ObjectDetection
-def machine_vision_immage(filename, savenewfile=False, sensitivity=20, newfilepath="result.jpg"):
+from imageai.Detection import cv2
+def machine_vision_immage(filename, savenewfile=False, sensitivity=20, newfilepath="result.png"):
     path = 'resnet50_coco_best_v2.0.1.h5'
     detector = ObjectDetection()
     detector.setModelTypeAsRetinaNet()

@@ -1,5 +1,7 @@
 $GIT_DIR/envs/
 $GIT_DIR/notebooks/
+$GIT_DIR/.ipynb_checkpoints/
+$GIT_DIR/__pycache__/
 data/recipeitems-latest.json
 resnet50_coco_best_v2.0.1.h5
 token
