@@ -8,3 +8,8 @@ token
 debug.log
 *.log
 
+*.jpg
+keras_training/dogs-vs-cats/sampleSubmission.csv
+keras_training/dogs-vs-cats/test1.zip
+keras_training/dogs-vs-cats/train.zip
+keras_training/dogs-vs-cats.zip
