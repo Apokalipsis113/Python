@@ -2,6 +2,7 @@ $GIT_DIR/envs/
 $GIT_DIR/notebooks/
 $GIT_DIR/.ipynb_checkpoints/
 $GIT_DIR/__pycache__/
+$GIT_DIR/.ipynb_checkpoints
 data/recipeitems-latest.json
 resnet50_coco_best_v2.0.1.h5
 token
@@ -13,3 +14,5 @@ keras_training/dogs-vs-cats/sampleSubmission.csv
 keras_training/dogs-vs-cats/test1.zip
 keras_training/dogs-vs-cats/train.zip
 keras_training/dogs-vs-cats.zip
+yolo.h5
+keras_training/cats_vs_dogs_small_2.h5
