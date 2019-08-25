@@ -21,3 +21,5 @@ imageai-2.0.3-py3-none-any.whl
 *.gz
 *.vec
 *.txt_err
+keras_training/msg/messages.html
+keras_training/msg/messages2.html
