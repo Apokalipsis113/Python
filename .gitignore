@@ -23,3 +23,6 @@ imageai-2.0.3-py3-none-any.whl
 *.txt_err
 keras_training/msg/messages.html
 keras_training/msg/messages2.html
+keras_training/8_style/style.png
+keras_training/8_style/portrait.png
+keras_training/.ipynb_checkpoints/8_stylized_image-checkpoint.ipynb
