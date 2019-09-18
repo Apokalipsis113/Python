@@ -26,3 +26,5 @@ keras_training/msg/messages2.html
 keras_training/8_style/style.png
 keras_training/8_style/portrait.png
 keras_training/.ipynb_checkpoints/8_stylized_image-checkpoint.ipynb
+*.gif
+*.mp4

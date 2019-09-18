@@ -27,3 +27,14 @@ def card_names():
     df.set_index('index', inplace=True)
     df.sort_index(inplace=True)
     return df
+
+def suit_name(suit_str):
+    if suit_str in ['diamonds']:
+        return "\u2666"
+    if suit_str in ['hearts']:
+        return "\u2665"
+    if suit_str in ['spades']:
+        return "\u2660"
+    if suit_str in ['clubs']:
+        return "\u2663"
+    return "Jocker"
