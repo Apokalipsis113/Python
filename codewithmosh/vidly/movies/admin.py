@@ -4,7 +4,7 @@ from .models import Genge, Movie
 
 
 class GengeAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name',)
+    list_display = ('name', 'id')
 
 
 class MovieAdmin(admin.ModelAdmin):

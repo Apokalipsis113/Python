@@ -1,8 +1,6 @@
 from django.db import models
 from django.utils import timezone
 
-# Create your models here.
-
 
 class Genge(models.Model):
     name = models.CharField(max_length=255)
@@ -13,8 +11,8 @@ class Genge(models.Model):
 
 class Movie(models.Model):
     title = models.CharField(max_length=255)
-    release_yeaar = models.IntegerField()
+    release_year = models.IntegerField()
     number_in_stock = models.IntegerField()
     daily_rate = models.FloatField()
     genre = models.ForeignKey(Genge, on_delete=models.CASCADE)
-    date_created = models.DateTimeField(default=timezone.now)
+    date_created = models.DateField(default=timezone.now)
