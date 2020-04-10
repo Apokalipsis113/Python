@@ -1,0 +1,20 @@
+console.log("conected");
+
+var i = 1;
+
+$("h1").click(function(){
+  $(this).text("h1 clicked " + i + " times");
+  i++;
+  })
+
+$("li").click(function(){
+  console.log("some li clicked!");
+})
+
+$("input").eq(0).keypress(function(){
+  $("h3").toggleClass("turnBlue");
+  })
+
+$("h2").on("mouseenter",function(){
+  $(this).toggleClass("turnBlue");
+  })

@@ -1,0 +1,39 @@
+h1{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+  padding: 30px;
+}
+
+tr{
+  padding: 30px;
+}
+
+td{
+  height: 500px;
+  width: 100px;
+  border: 30px solid white;
+}
+
+#one{
+  background-color: #247BA0;
+}
+
+#two{
+  background-color: #70C1B3;
+}
+
+#tree{
+  background-color: #B2DBBF;
+}
+
+#four{
+  background-color: #F3FFBD;
+}
+
+#five{
+  background-color: #FF1654;
+}
